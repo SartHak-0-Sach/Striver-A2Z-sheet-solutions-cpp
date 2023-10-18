@@ -6,8 +6,8 @@ Welcome to the GitHub repository containing solutions to the Striver DSA (Data S
 
 The Striver DSA Placement Preparation Sheet is a comprehensive resource for those preparing for technical interviews and competitive programming. It covers a wide range of data structures and algorithms topics and includes problems and explanations for each.
 
-- **Striver's YouTube Channel**: [Striver's channel]([https://www.youtube.com/@striver_79])
-- **Original Striver DSA Sheet**: [Striver's Sheet]([https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/])
+- **Striver's YouTube Channel**: [Striver's channel](https://www.youtube.com/@striver_79)
+- **Original Striver DSA Sheet**: [Striver's Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 ## Contents
 
