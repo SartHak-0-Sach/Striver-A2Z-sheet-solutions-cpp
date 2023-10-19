@@ -8,16 +8,18 @@
 #define PI 3.14
 using namespace std;
 
-double areaSwitchCase(int ch, vector<double> a) {
+double areaSwitchCase(int ch, vector<double> a)
+{
 
     double area = 0.0;
-    switch (ch) {
-        case 1: // Circle
-            area = PI * a[0] * a[0];
-            break;
+    switch (ch)
+    {
+    case 1: // Circle
+        area = PI * a[0] * a[0];
+        break;
 
-        case 2: // Rectangle
-            area = a[0] * a[1];
+    case 2: // Rectangle
+        area = a[0] * a[1];
     }
     return area;
 }

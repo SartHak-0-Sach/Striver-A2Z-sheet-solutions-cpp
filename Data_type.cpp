@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int dataTypes(string type) {
+int dataTypes(string type)
+{
     if (type == "Integer")
         return 4;
     else if (type == "Long")
@@ -12,8 +13,8 @@ int dataTypes(string type) {
         return 8;
     else if (type == "Character")
         return 1;
-    else 
-        return -1; 
+    else
+        return -1;
 }
 
 int main()

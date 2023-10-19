@@ -34,7 +34,7 @@ int main()
 
     else
     {
-        cout<<"Enter a valid number with respect to the series"<<endl;
+        cout << "Enter a valid number with respect to the series" << endl;
     }
 
     return 0;

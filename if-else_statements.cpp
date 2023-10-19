@@ -6,7 +6,8 @@
 #include <iostream>
 using namespace std;
 
-string compareIfElse(int a, int b) {
+string compareIfElse(int a, int b)
+{
 
     if (a > b)
         return "greater";
@@ -14,7 +15,6 @@ string compareIfElse(int a, int b) {
         return "smaller";
     else
         return "equal";
-
 }
 
 int main(int argc, char const *argv[])

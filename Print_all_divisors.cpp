@@ -49,9 +49,7 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-
-
-// Approach-2 
+// Approach-2
 
 /*
     Time Complexity: O(n)
@@ -72,7 +70,6 @@ int sumOfAllDivisors(int n)
     return ans;
 }
 */
-
 
 // Approach-3 Harmonic Lemma
 /*

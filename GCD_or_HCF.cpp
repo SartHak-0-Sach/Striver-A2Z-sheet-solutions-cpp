@@ -15,7 +15,7 @@ int calcGCD(int n, int m)
 {
     int ans = 1;
 
-    // Iterating through all integers from 1 to min(n,m) and 
+    // Iterating through all integers from 1 to min(n,m) and
     // finding the greatest integer that divides both 'n' and 'm'.
     for (int i = 1; i <= min(n, m); i++)
     {

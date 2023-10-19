@@ -18,28 +18,31 @@ int main(int argc, char const *argv[])
 {
     int n;
     cin >> n;
-    cout << palindrome(n) << endl;   
+    cout << palindrome(n) << endl;
     return 0;
 }
 */
-
 
 // Leetcode Question solution:-
 
 #include <iostream>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    bool isPalindrome(int x) {
-        if (x < 0) {
+    bool isPalindrome(int x)
+    {
+        if (x < 0)
+        {
             return false;
         }
 
         long long reversed = 0;
         long long temp = x;
 
-        while (temp != 0) {
+        while (temp != 0)
+        {
             int digit = temp % 10;
             reversed = reversed * 10 + digit;
             temp /= 10;
@@ -86,7 +89,7 @@ arr[i]=((x%p)-x%(p/10))/(p/10);
             }
         }
         for(int i=0; i<count; i++)
-        { 
+        {
           a=arr[i];
           b=arr[count-i-1];
             if(a!=b){delete[] arr;
