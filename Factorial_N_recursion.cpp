@@ -30,6 +30,12 @@ vector<long long> factorialNumbers(long long n) {
 
 int main(int argc, char const *argv[])
 {
-    
+    long long n;
+    cin >> n;
+    vector<long long> ans = factorialNumbers(n);
+    for (long long i = 0; i < ans.size(); i++) {
+        cout << ans[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
